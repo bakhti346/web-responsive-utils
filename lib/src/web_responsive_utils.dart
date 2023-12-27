@@ -125,6 +125,7 @@ class WebResponsiveScaffold extends StatelessWidget {
 
   /// Rendering the appropriate floating action button for each screen size
   Widget _renderAppropriateFAB(BuildContext context) {
+    return Container();
     if (ResponsiveScreen.isSmall(context) &&
         ResponsiveScreen.isXSmall(context)) {
       return smallLayoutFAB ??
